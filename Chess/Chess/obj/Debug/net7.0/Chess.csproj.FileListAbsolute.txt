@@ -1,0 +1,12 @@
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\bin\Debug\net7.0\Chess.deps.json
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\bin\Debug\net7.0\Chess.dll
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\bin\Debug\net7.0\Chess.pdb
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\obj\Debug\net7.0\Chess.csproj.AssemblyReference.cache
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\obj\Debug\net7.0\Chess.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\obj\Debug\net7.0\Chess.AssemblyInfoInputs.cache
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\obj\Debug\net7.0\Chess.AssemblyInfo.cs
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\obj\Debug\net7.0\Chess.csproj.CoreCompileInputs.cache
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\obj\Debug\net7.0\Chess.dll
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\obj\Debug\net7.0\refint\Chess.dll
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\obj\Debug\net7.0\Chess.pdb
+C:\WorkAndStudyFolder\Client-Server Chess\Chess\Chess\obj\Debug\net7.0\ref\Chess.dll
