@@ -1,6 +1,6 @@
 ﻿namespace ChessDemo;
 
-internal class Program
+public class Program
 {
     private static void Main(string[] args)
     {
@@ -8,9 +8,26 @@ internal class Program
         while (true)
         {
             Console.WriteLine(chess.fen);
-            string? move = Console.ReadLine();
+            Console.WriteLine(ChessToAscii(chess));
+            string move = Console.ReadLine();
             if(move == "") break;
-            chess.Move(move);
+            chess = chess.Move(move);
         }
+    }
+
+    static string ChessToAscii(Chess.Chess chess)
+    {
+        string text = "  +-----------------+\n";
+        for (int y = 7; y >= 0; y--)
+        {
+            text += y + 1;
+            text += " | ";
+            for (int x = 0; x < 8; x++)
+                text += chess.GetFigureAt(x, y) + " ";
+            text += "|\n";
+        }
+        text += "  +-----------------+\n";
+        text += "    a b c d e f g h\n";
+        return text;
     }
 }

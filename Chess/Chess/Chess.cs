@@ -2,16 +2,31 @@
 
 public class Chess
 {
-    public string fen { get; private set; }
+    public string fen { get; private set; } = null!;
+    private Board board;
     public Chess(string fen = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1")
     {
         this.fen = fen;
+        board = new Board(fen);
     }
 
-    public Chess Move(string? move) => new(fen);
+    private Chess(Board board)
+    {
+        this.board = board;
+    }
+
+    public Chess Move(string move)
+    {
+        FigureMoving fm = new FigureMoving(move);
+        Board nextBoard = board.Move(fm);
+        Chess nextChess = new Chess(nextBoard);
+        return nextChess;
+    }
 
     public char GetFigureAt(int x, int y)
     {
-        return '.';
+        Square square = new Square(x, y);
+        Figure f = board.GetFigureAt(square);
+        return f == Figure.none ? '.' : (char)f;
     }
 }

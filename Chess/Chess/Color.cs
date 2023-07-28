@@ -1,6 +1,6 @@
 ﻿namespace Chess;
 
-enum Color
+public enum Color
 {
     none,
     white,
